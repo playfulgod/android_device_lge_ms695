@@ -30,7 +30,7 @@ BOARD_SDEXT_DEVICE := /dev/block/mmcblk1p2
 
 # Recovery
 TARGET_PREBUILT_KERNEL := device/lge/ms695/kernel
-BOARD_CUSTOM_GRAPHICS := ../../../device/lge/vs840/recovery/graphics.c
+BOARD_CUSTOM_GRAPHICS := ../../../device/lge/ms695/recovery/graphics.c
 
 # UMS
 BOARD_UMS_LUNFILE := /sys/devices/platform/msm_hsusb/gadget/lun0/file
