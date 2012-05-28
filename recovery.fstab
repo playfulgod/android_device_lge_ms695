@@ -34,5 +34,5 @@
 /recovery	emmc		/dev/block/mmcblk0p17
 /system		ext4		/dev/block/mmcblk0p14
 #/sys_boot	vfat		/dev/block/mmcblk0p3
-/emmc		vfat		/dev/block/mmcblk0p30
+#/emmc		vfat		/dev/block/mmcblk0p30
 /sdcard		vfat		/dev/block/mmcblk1p1
