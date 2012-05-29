@@ -30,6 +30,7 @@ BOARD_SDEXT_DEVICE := /dev/block/mmcblk1p2
 
 # Recovery
 TARGET_PREBUILT_KERNEL := device/lge/ms695/kernel
+TARGET_RECOVERY_INITRC := device/lge/ms695/recovery/recovery.rc
 BOARD_CUSTOM_GRAPHICS := ../../../device/lge/ms695/recovery/graphics.c
 
 # UMS

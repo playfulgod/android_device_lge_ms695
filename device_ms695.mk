@@ -19,9 +19,6 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full.mk)
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/recovery.rc:recovery/root/init.m3.rc 
-
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_ms695
 PRODUCT_DEVICE := ms695
