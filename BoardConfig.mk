@@ -22,7 +22,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_USES_MMCUTILS := true
 
-#BOARD_HAS_INTERNAL_PARTITIONS := true
+# Internal sd aka emmc
 BOARD_HAS_SDCARD_INTERNAL := true
 BOARD_SDCARD_DEVICE_PRIMARY := /dev/block/mmcblk1p1
 BOARD_SDCARD_DEVICE_SECONDARY := /dev/block/mmcblk1k1
@@ -31,11 +31,7 @@ BOARD_SDEXT_DEVICE := /dev/block/mmcblk1p2
 # Recovery
 TARGET_PREBUILT_KERNEL := device/lge/ms695/kernel
 TARGET_RECOVERY_INITRC := device/lge/ms695/recovery/recovery.rc
-BOARD_CUSTOM_GRAPHICS := ../../../device/lge/ms695/recovery/graphics.c
-
-# UMS
-BOARD_UMS_LUNFILE := /sys/devices/platform/msm_hsusb/gadget/lun0/file
-TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/usb_mass_storage/lun0/file
+BOARD_CUSTOM_GRAPHICS  := ../../../device/lge/ms695/recovery/graphics.c
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 # Use this flag if the board has a ext4 partition larger than 2gb
