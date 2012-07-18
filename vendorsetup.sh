@@ -15,4 +15,5 @@
 #
 
 add_lunch_combo full_ms695-eng
-add_lunch_combo cm_ms695-userdebug
+add_lunch_combo full_ms695-userdebug
+
